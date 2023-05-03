@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.AzureAdUserCrude;
 
 import com.azure.identity.ClientSecretCredential;
 import com.azure.identity.ClientSecretCredentialBuilder;
