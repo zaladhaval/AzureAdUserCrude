@@ -1,5 +1,1 @@
-com/example/demo/LdapUser.class
-com/example/demo/DemoApplication.class
-com/example/demo/TestController.class
-com/example/demo/B2CUserService.class
-com/example/demo/ServletInitializer.class
+com/example/AzureAdUserCrude/AzureUserCrude.class
