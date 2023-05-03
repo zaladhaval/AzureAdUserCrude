@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="github-example-package" />
+        <module name="AzureAdUserCrude" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AzureAdUserCrude" target="1.8" />
       <module name="demo" target="17" />
+      <module name="github-example-package" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

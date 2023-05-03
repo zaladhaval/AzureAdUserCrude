@@ -8,6 +8,7 @@ import com.microsoft.graph.options.HeaderOption;
 import com.microsoft.graph.options.Option;
 import com.microsoft.graph.requests.GraphServiceClient;
 import com.microsoft.graph.requests.UserCollectionPage;
+import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -49,11 +50,11 @@ public class AzureUserCrude {
                 .filter(query).count().get();
         List<User> data = userCollectionPage.getCurrentPage();
         List<User> deletedUser = new ArrayList<>();
-        /*if (!CollectionUtils.isEmpty(data)) {
+        if (!CollectionUtils.isEmpty(data)) {
             for (User user : data) {
                 deletedUser.add(graphClient.users(user.id).buildRequest().delete());
             }
-        }*/
+        }
         return deletedUser;
     }
 

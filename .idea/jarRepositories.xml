@@ -4,7 +4,22 @@
     <remote-repository>
       <option name="id" value="github" />
       <option name="name" value="github" />
+      <option name="url" value="https://github.com/zaladhaval/AzureAdUserCrude" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="github" />
       <option name="url" value="https://maven.pkg.github.com/zaladhaval8980@gmail.com/AzureAdUserCrude" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="github" />
+      <option name="url" value="https://maven.pkg.github.com/zaladhaval/AzureAdUserCrude" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="github" />
+      <option name="url" value="https://maven.pkg.github.com/zaladhaval8980@gmail.co/AzureAdUserCrude" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
